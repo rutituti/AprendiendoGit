@@ -1,0 +1,18 @@
+//Para clonar su repositorio:
+git clone [url_repositorio]
+//Recordar entrar en la carpeta del repositorio
+
+//Para saber el estado del repositorio
+git status
+
+//1. Agregar elarchivo a la transaccion 
+git add [nombre_del_archivo] [
+fir add -A
+git add * //Archivos recien agregados no se toman en cuenta
+
+//2. Completar la transaccion
+git commit -m "Agregar mensaje imperativo"
+
+//3. Empujar la version al repositorio
+git push [origin] [master]
+git push
